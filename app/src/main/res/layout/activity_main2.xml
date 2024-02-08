@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="15dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="In the vast universe of Warhammer 40,000, the Imperium of Man stands as a bastion of humanity's survival amidst a galaxy teeming with threats. Ruled by the God-Emperor of Mankind, the Imperium is a sprawling empire that spans countless worlds, each with its own unique challenges and dangers. At its heart lies Terra, the cradle of humanity and the seat of the Imperium's power. The Imperium is not without its flaws, however. It is a grim and authoritarian regime, governed by a strict hierarchy and dogmatic adherence to the Imperial Creed. The Adeptus Terra, the bureaucratic arm of the Imperium, is rife with corruption and inefficiency, leading to widespread suffering and hardship for many of its citizens. Despite these challenges, the Imperium endures, thanks in no small part to the resilience and determination of its people. From the mighty Space Marines, genetically enhanced warriors who serve as the Imperium's ultimate defenders, to the vast armies of the Astra Militarum, the Imperium's military might is unmatched. But the Imperium's greatest strength is also its greatest weakness. The Emperor, once the most powerful psyker in the galaxy, now lies dormant on the Golden Throne, his mind sustained only by the daily sacrifice of thousands of psykers. His absence has left the Imperium vulnerable to the predations of Chaos, the insidious Warp entities that seek to corrupt and destroy all that is good in the galaxy. Yet, despite the constant threats it faces, the Imperium of Man endures, a beacon of hope in a dark and unforgiving universe. Its people are hardy and resilient, willing to endure any hardship in the name of the Emperor and the survival of humanity. As long as there are brave souls willing to fight for the Imperium, it will continue to stand against the darkness, a shining symbol of humanity's indomitable spirit."
+            android:textSize="20dp" />
+    </ScrollView>
+</LinearLayout>
